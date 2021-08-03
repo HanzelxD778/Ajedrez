@@ -1,0 +1,14 @@
+$color: black;
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+td > a {
+    color: $color;
+}
+
+td > a:hover {
+    color: $color;
+}
