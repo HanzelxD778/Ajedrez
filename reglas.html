@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="statics/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Ajedrez<br><small>Aprender sobre ajedrez!</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+       <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ¿Cómo?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="tablero.html">Configurar el tablero</a>
+                        <a class="dropdown-item" href="piezas.html">Mover las piezas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="ganar.html">Ganar!</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Reglas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="reglas.html">Primera jugada</a>
+                        <a class="dropdown-item" href="reglas.html#especiales">Reglas especiales</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="estrategias.html">Estrategias básicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+       </div>
+    </nav>
+
+    <div id="primera">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center my-3">Averigua quién hace la primera jugada en ajedrez</h2>
+                    <p>
+                        El jugador con las piezas blancas siempre es el primero en mover. Por lo tanto, antes de la partida generalmente se
+                        echa a suertes qué jugador controlará las blancas, por ejemplo, lanzando una moneda al aire o adivinando el color del peón oculto en la mano
+                        de uno de los jugadores. Las blancas realizan la primera jugada, seguida del primer movimiento de las negras, después mueven blancas de nuevo,
+                        y así sucesiva y alternativamente hasta el final de la partida. El jugador que mueve primero (blancas) tiene una pequeña ventaja porque puede
+                        llevar la iniciativa y atacar inmediatamente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="especiales">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center my-3">Descubre las reglas especiales del ajedrez</h2>
+                    <p class="text-center">Hay unas reglas especiales de ajedrez que pueden no parecer lógicas al principio. Fueron creadas para hacer el juego más divertido e interesante.</p>
+                    <h4 class="text-center">Cómo coronar un peón en ajedrez</h4>
+                    <p>Los peones tienen otra habilidad especial: si llegan al otro extremo del tablero pueden convertirse en cualquier otra pieza, excepto en un rey (a esta jugada se le llama coronación o promoción)</p>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-2">
+                                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/davidkaufmann/phpTDNn8b.jpeg" alt="responsive image" class="img-fluid imagen">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        Un error común es considerar que los peones sólo pueden ser canjeados por una pieza que haya sido previamente capturada por el adversario.
+                        Pero eso no es cierto. Generalmente, un peón que corona se convierte en una dama. Solo los peones pueden promocionar.
+                    </p>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-2">
+                                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/php2sp106.gif" alt="responsive image" class="img-fluid imagen">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="text-center">Cómo capturar al paso ("en passant")</h4>
+                    <p>
+                        La última regla sobre los peones se llama captura "en passant", que en francés significa "al paso". Si un peón avanza dos casillas en
+                        su primer movimiento, y al hacerlo se sitúa al lado de un peón rival, este peón enemigo tiene la opción de capturar al primero ocupando
+                        la casilla que aquel hubiera ocupado si solo hubiera avanzado una casilla.
+                    </p>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-2">
+                                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/davidkaufmann/phpXrIZEr.jpeg" alt="responsive image" class="img-fluid imagen1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-center">El peón blanco pasa por una casilla controlada por las negras y permite la captura al paso.</p>
+
+                    <p>
+                        Esta jugada especial debe hacerse inmediatamente después del movimiento del primer peón, de lo contrario la opción de capturar ya
+                        no estará disponible. Observa el siguiente ejemplo para entender mejor esta extraña, pero importante regla.
+                    </p>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-2">
+                                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpPbxgAU.gif" alt="responsive image" class="img-fluid imagen">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="text-center">Cómo se hace un enroque</h4>
+                    <p>
+                        Hay otra regla especial denominada enroque. Esta jugada te permite hacer dos cosas importantes en un solo movimiento: situar al rey
+                        en una posición más segura y sacar a la torre de su esquina para ponerla en juego. En un solo turno el jugador puede mover al rey
+                        dos casillas hacia un lado y, al mismo tiempo, la torre situada en la esquina de ese lado, se coloca junto al rey en la casilla
+                        ubicada en el lado opuesto. (Ver el siguiente ejemplo). Sin embargo, para poder hacer un enroque se deben cumplir las siguientes
+                        condiciones:
+                    </p>
+
+                    <ul>
+                        <li>Debe ser la primera jugada de aquel rey</li>
+                        <li>Debe ser la primera jugada de aquella torre</li>
+                        <li>No puede haber ninguna pieza entre el rey y la torre</li>
+                        <li>El rey no puede estar en jaque ni pasar por una casilla amenazada</li>
+                    </ul>
+
+                    <p>
+                        Si el enroque se hace con la torre más cercana al rey se llama enroque corto o enroque flanco de rey. Cuando el enroque se hace
+                        hacia el otro lado se denomina enroque largo o enroque flanco de dama. Independientemente del tipo de enroque, el rey solo se
+                        mueve dos casillas en esta jugada.
+                    </p>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-2">
+                                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/php1yeIwJ.gif" alt="responsive image" class="img-fluid imagen">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

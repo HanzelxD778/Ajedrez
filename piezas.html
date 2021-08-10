@@ -20,18 +20,148 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tablero.html">Configurar el tablero</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ¿Cómo?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="tablero.html">Configurar el tablero</a>
+                        <a class="dropdown-item" href="#">Mover las piezas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="ganar.html">Ganar!</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Reglas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="reglas.html">Primera jugada</a>
+                        <a class="dropdown-item" href="reglas.html#especiales">Reglas especiales</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Mover las piezas</a>
+                    <a class="nav-link" href="estrategias.html">Estrategias básicas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="especiales.html">Reglas especiales</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
             </ul>
        </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center my-3">Cómo mover las piezas de ajedrez</h2>
+                <p>
+                    Hay 6 tipos de piezas y cada uno tiene su propia forma de moverse. Una pieza no puede moverse atravesando a otra (aunque el caballo
+                    sí puede saltar sobre las demás) y nunca puede desplazarse a una casilla ocupada por otra pieza de su color. Sin embargo, las piezas
+                    pueden moverse a las casillas ocupadas por las piezas del adversario para capturarlas. De hecho, las piezas se mueven por el tablero
+                    para ocupar una casilla con uno de estos tres objetivos:
+                </p>
+                <ul>
+                    <li>Capturar una pieza rival (reemplazándola al ocupar la casilla en la que esta se encontraba)</li>
+                    <li>Defender a las piezas de su propio bando para evitar que sean capturadas</li>
+                    <li>Controlar las casillas importantes del tablero</li>
+                </ul>
+                <h4 class="text-center">Cómo se mueve el Rey</h4>
+                <p>
+                    El rey es la pieza más importante, pero también una de las más débiles. El rey sólo puede avanzar una casilla en cualquier dirección:
+                    hacia arriba, hacia abajo, hacia los lados o en diagonal. En ningún caso el rey puede moverse a una casilla en la que estaría en jaque,
+                    es decir, en la que pudiera ser capturado. Recuerda que cuando el rey está directamente amenazado por otra pieza, se dice que está "en
+                    jaque".
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpHLaEcZ.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="text-center">Cómo se mueve la Dama</h4>
+                <p>
+                    La dama (reina) es la pieza más poderosa. Puede moverse en cualquier dirección (hacia adelante, hacia atrás, hacia los lados
+                    o en diagonal) y tantas casillas como se quiera; siempre y cuando no pase por encima de una pieza de su color. Como ocurre con
+                    todas las piezas, si la dama captura una pieza rival, su movimiento ha terminado. Observa cómo la dama blanca captura a la dama
+                    negra y obliga a moverse al rey negro.
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpgpXYlQ.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="text-center">Cómo se mueve la Torre</h4>
+                <p>
+                    La torre puede moverse tantas casillas como quiera, pero sólo hacia adelante, hacia atrás o hacia los lados.
+                    ¡Las torres son piezas especialmente poderosas cuando trabajan juntas y se protegen mutuamente!
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpHlPkaE.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="text-center">Cómo se mueve el Alfil</h4>
+                <p>
+                    El alfil puede moverse tan lejos como quiera, pero siempre en diagonal. Cada alfil comienza en una casilla de un color (claro u oscuro)
+                    y debe permanecer toda la partida en ese color. Los dos alfiles trabajan bien juntos porque se cubren las debilidades mutuamente.
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpOYVVvo.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="text-center">Cómo se mueve el Caballo</h4>
+                <p>
+                    Los caballos se mueven de una manera muy diferente a la de las otras piezas: avanzan dos casillas en una dirección y luego una
+                    más en un ángulo de 90 grados, dibujando en su desplazamiento una letra "L" sobre el tablero. Los caballos también son las
+                    únicas piezas que pueden saltar sobre otras.
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpMl2vJy.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="text-center">Cómo se mueve el Peón</h4>
+                <p>
+                   Los peones tienen la particularidad de que se mueven y capturan de diferentes maneras: se mueven hacia adelante, pero capturan
+                   en diagonal. Los peones sólo pueden avanzar una casilla en cada jugada, a excepción de su primer movimiento en el que puedan
+                   avanzar dos casillas. Los peones sólo pueden capturar una casilla situada en diagonal y frente a ellos. Nunca pueden retroceder,
+                   ni siquiera para capturar una pieza. Los peones no pueden moverse si en su camino encuentran una pieza que ocupe la casilla situada
+                   directamente frente a ellos y tampoco pueden capturarla.
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpHVosJK.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

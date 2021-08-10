@@ -26,10 +26,10 @@
                         ¿Cómo?
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Configurar el tablero</a>
+                        <a class="dropdown-item" href="tablero.html">Configurar el tablero</a>
                         <a class="dropdown-item" href="piezas.html">Mover las piezas</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="ganar.html">Ganar!</a>
+                        <a class="dropdown-item" href="#">Ganar!</a>
                     </div>
                 </li>
 
@@ -55,45 +55,50 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center my-3">¿Cómo configurar el tablero de ajedrez?</h2>
-                <p class="text-center">Al comienzo de la partida, cada jugador debe tener una casilla blanca (o de color claro) en la parte inferior derecha del tablero.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <img src="https://images.chesscomfiles.com/uploads/v1/article/17625.ae3f97c6.630x354o.58d32c1e45fd.png" alt="responsive image" class="img-fluid imagen2">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="my-2">
-                    La posición inicial de las piezas es siempre la misma. La segunda fila se encuentra ocupada por 8 peones.
-                    Las torres ocupan las esquinas, y los dos caballos se sitúan a sus lados, seguidos por los alfiles. Al lado de estos, la dama
-                    (o reina) ocupa siempre la casilla de su propio color (la dama blanca en una casilla blanca; la negra, en una casilla negra).
-                    Por último, el rey se sitúa al lado de la reina, en la casilla restante.
+                <h2 class="text-center my-3">Cómo ganar una partida de ajedrez</h2>
+                <p class="text-center">Hay varias formas de terminar una partida de ajedrez: con jaque mate, en tablas (empate), rendirse, perder por tiempo...</p>
+                <h4 class="text-center">Cómo dar jaque mate</h4>
+                <p>
+                    El objetivo del juego es dar jaque mate al rey del adversario. Esto ocurre cuando el rey está en jaque y no puede salir de esa
+                    situación. Solo hay tres formas por las que un rey puede escapar de un jaque:
                 </p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center my-2">
-                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/phpkX414z.gif" alt="responsive image" class="img-fluid imagen">
-            </div>
-        </div>
-    </div>
+                <ul>
+                    <li>Moverse a una casilla segura (¡aunque no puede enrocarse!)</li>
+                    <li>Bloquear el jaque interponiendo otra pieza de su propio bando</li>
+                    <li>Capturar la pieza que amenaza al rey</li>
+                </ul>
+                <p>Si un rey no puede escapar del jaque, la partida ha terminado. Generalmente el rey no es capturado o retirado del tablero, simplemente la partida se declara finalizada.</p>
 
-    <footer>
-        <p class="text-center">
-            (c) Todos los derechos reservados - 2021 <br>
-            Diseñado por Hanzel Urrutia
-        </p>
-    </footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center my-2">
+                            <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/erik/php1R6xxS.gif" alt="responsive image" class="img-fluid imagen">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-center">Este ejemplo, en el cual las negras dan mate en 2 jugadas, se conoce como "Mate del Loco".</p>
+
+                <h4 class="text-center">Cómo empatar una partida</h4>
+                <p>A veces, las partidas de ajedrez terminan sin un ganador, pero en empate (denominado tablas). Hay 5 razones por las que una partida puede terminar en tablas:</p>
+                <ul>
+                    <li>La posición llega a un punto muerto en el que es el turno de un jugador, pero su rey no está en jaque y sin embargo, no puede hacer ningún movimiento reglamentario. Esto se conoce comúnmente como "ahogado".</li>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-2">
+                                <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpJpKI77.png" alt="responsive image" class="img-fluid imagen">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center">Con la jugada Dc7, las blancas crean el rey ahogado y la partida termina en tablas.</p>
+                    <li>Los jugadores pueden acordar Tablas y dejar de jugar</li>
+                    <li>No hay suficientes piezas en el tablero para forzar un jaque mate (ejemplo: un Rey y un Alfil contra otro Rey)</li>
+                    <li>Un jugador declara Tablas si la misma posición se repite tres veces (aunque no necesariamente tres veces seguidas)</li>
+                    <li>Se han efectuado 50 movimientos y ninguno de los jugadores ha movido un peón ni capturado una pieza</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
