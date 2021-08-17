@@ -1,16 +1,29 @@
-$color: black;
+$hoverA: black;
+$verdeSuave: #92BE63;
+$verdeAmarillo: #B6BD63;
+
+%tabla {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
 
 p {
     text-align: justify;
     font-size: 16px;
 }
 
+p::selection {
+    background-color: $verdeAmarillo;
+}
+
 td > a {
-    color: $color;
+    color: $hoverA;
 }
 
 td > a:hover {
-    color: $color;
+    color: $hoverA;
 }
 
 @media (min-width: 800px) {
@@ -31,4 +44,46 @@ td > a:hover {
     .imagen {
         width: 80%;
     }
+}
+
+#primera {
+    h2 {
+        color: $verdeSuave;
+    }
+}
+
+#especiales {
+    h2{
+        color: $verdeAmarillo;
+    }
+}
+
+section {
+    text-align: center;
+
+    table {
+        @extend %tabla
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+    th {
+        background-color: $verdeSuave;
+    }
+
+    td {
+        background-color: $verdeAmarillo;
+    }
+}
+
+input[type=text] {
+    background-color: $verdeSuave;
+}
+
+input[type=email] {
+    background-color: $verdeAmarillo;
 }

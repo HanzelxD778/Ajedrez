@@ -1,6 +1,15 @@
+section table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto; }
+
 p {
   text-align: justify;
   font-size: 16px; }
+
+p::selection {
+  background-color: #B6BD63; }
 
 td > a {
   color: black; }
@@ -20,5 +29,27 @@ td > a:hover {
 @media (max-width: 799px) {
   .imagen {
     width: 80%; } }
+#primera h2 {
+  color: #92BE63; }
+
+#especiales h2 {
+  color: #B6BD63; }
+
+section {
+  text-align: center; }
+  section th, section td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center; }
+  section th {
+    background-color: #92BE63; }
+  section td {
+    background-color: #B6BD63; }
+
+input[type=text] {
+  background-color: #92BE63; }
+
+input[type=email] {
+  background-color: #B6BD63; }
 
 /*# sourceMappingURL=styles.css.map */
